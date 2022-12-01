@@ -1,0 +1,12 @@
+#Api doc : https://documenter.getpostman.com/view/2434233/2s8Yt1t9zM
+1.Create A Home Page 
+2.Create A Shop Page with following features:
+#2.1
+Create A Tabbar with categories, 
+with selected item in different background color 
+#2.2
+Call product api with with pagination
+#2.3
+Call Category wise products only when tab changes
+#2.4
+Auto Load more products when scroll down

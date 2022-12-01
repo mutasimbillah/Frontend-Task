@@ -17,7 +17,7 @@ class ProductController extends ApiController {
                 AllowedFilter::exact('category_id'),
             ])
             ->allowedIncludes(['category', 'media'])
-            ->get();
+            ->paginate(5);
         //return $products;
         return $this->success(ProductResource::collection($products));
     }
